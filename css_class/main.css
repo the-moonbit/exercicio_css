@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: #9c77ff;
+    padding: 16px 0;
+    color: #FAF4EF;
+    font-family: 'Kalnia', serif;
+    font-weight: 700;
+
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header li{
+    display: inline;
+    margin-left: 16px;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    width: 100%;
+
+}
+
+.articles article{
+    width: 30%;
+
+}
+
+section{
+    padding: 16px 0;
+
+}
+
+section h2, .articles article{
+    margin-bottom: 16px;
+}
+
+section h2{
+    font-size: 32px;
+    font-family: 'Kalnia', serif;
+    font-weight: 600;
+}
+
+.articles article a:hover{
+    background-color: #faedff;
+    color: black;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-family: 'Kalnia', serif;
+    font-weight: 600;
+}
+
+.articles article a{
+    background-color: #e197ff;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.articles article p, .articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#esportes{
+    background-color: #9ae8ff;
+}
+
+#economia{
+    background-color: #a0ffc7;
+}
+
+#musica{
+    background-color: #fcff8e;
+}
+
+
+#tv{
+    background-color: #ffcee4;
+}
